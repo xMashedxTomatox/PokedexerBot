@@ -1,8 +1,17 @@
-There is a need to install the telegram bot api with the following link
+# PokedexerBot
 
-python -m pip install python-telegram-bot
+PokedexerBot is a Telegram bot gives the type, abilities and stats of a pokemon.
 
-Usage:
-@pokedexer_bot
+## Installation
 
-/Search Pokemon Name
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the telegram bot library.
+
+```bash
+pip install python-telegram-bot
+```
+
+## Usage
+
+@pokedexer_bot on telegram
+
+/search POKEMON_NAME
