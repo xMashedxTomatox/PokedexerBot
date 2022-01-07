@@ -5,7 +5,7 @@ import re
 
 
 def main():
-    updater = Updater("your api key")
+    updater = Updater("your telegram bot key")
     dp = updater.dispatcher
     dp.add_handler(CommandHandler('search',search))
     updater.start_polling()
